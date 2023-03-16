@@ -1,0 +1,16 @@
+.contenedorHead{
+    display:flex;
+    flex-direction: row;
+    justify-content: end;
+    color: black;
+}
+.contenedorHead h3{
+    padding-left: 12px;
+}
+.contenedorHead h3:hover{
+    color: aqua;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

@@ -10,7 +10,44 @@
 .contenedorHead h3:hover{
     color: aqua;
 }
+
 a{
     text-decoration: none;
     color: black;
+}
+
+.contenedorFooter{
+    width: 100%;
+    border: solid black;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxFooter{
+    width: 33.3%;
+    border: solid pink;
+    text-align: justify;
+    padding: 20px;
+}
+
+.boxFooter img{
+    width: 15px;
+    height: 15px;
+}
+.boxItems{
+    display: flex;
+    align-items: center;
+}
+.boxItems img{
+    padding-right: 5px;
+}
+
+.boxItems a:hover{
+    color: pink;
+}
+.miniBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
